@@ -9,7 +9,9 @@ for (var i=0;i<className.length;i++){
  }
 
 // Exercise2 
-var ages=[27,33,29,26,31,38]
+var ages= [27,33,29,26,31,38]
+
+
 var i=0
 
 while (i<ages.length){
