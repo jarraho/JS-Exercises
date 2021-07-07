@@ -14,6 +14,8 @@ var ages= [27,33,29,26,31,38]
 
 var i=0
 
+console.log("Hello")
+
 while (i<ages.length){
     i++
 
