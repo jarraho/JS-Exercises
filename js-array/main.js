@@ -1,9 +1,13 @@
+//Sorting an Array
+// Exersice1 
+
 var className=["Fabian","Mazen","Nadine","Sozan","Lucas"]
 console.log(className[0])
 console.log(className[className.length-1])
 for (var i=0;i<className.length;i++){
     console.log(className[i])
 }
+//another way of loop with for in 
  for (i in className){
    console.log(className[i])
  }
@@ -25,21 +29,24 @@ while (i<ages.length){
 
     }
 }
-
+//another way of loop with for 
     for (var i = 0; i < ages.length; i++) {
         if (ages[i] % 2 === 0) {
             console.log(ages[i]);
         }
     }
+    // Functions that use Arrays
+
+      // Exercise3
+      function lowesttNumber(a,b,c){
+        console.log(Math.min(...[43,77,87] ) )
+            }
     
-    // Exercise3
+    // Exercise4
     function biggestNumber(a,b,c){
         console.log(Math.max(...[43,77,87] ) )
             }
-    // Exercise4
-    function lowesttNumber(a,b,c){
-        console.log(Math.min(...[43,77,87] ) )
-            }
+  
     // Exercise5
 
     var array = [3, 6, 67, 6, 23, 11, 100, 8, 93, 0, 17, 24, 7, 1, 33, 45, 28, 33, 23, 12, 99, 100];
@@ -99,6 +106,8 @@ function uppercase(sen) {
         return result;
         }
         console.log(longest("Web Development Tutorial functionr"));
+        //Extra: Function exercises
+
      //Exercise1
 
        //Exercise2
