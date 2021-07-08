@@ -12,6 +12,7 @@ for (var i=0;i<className.length;i++){
 var ages= [27,33,29,26,31,38]
 
 
+
 var i=0
 
 
